@@ -1,10 +1,12 @@
 .header-section {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
     border-bottom: 2px solid #f36528;
+    left: 0;
+    position: fixed;
     text-align: left;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background: #ffffffee;
 
     &__logo-wrapper {
         padding: 1rem 1.5rem;

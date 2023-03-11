@@ -1,0 +1,43 @@
+.card {
+    width: 300px;
+    padding-bottom: 10px;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    position: relative;
+
+    &:hover {
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    }
+
+    &__heading {
+        padding: 1rem;
+    }
+
+    &__play-icon-wrapper {
+        padding-right: 1rem;
+        text-align: right;
+    }
+
+    &__icon-button {
+        outline: unset;
+        box-shadow: unset;
+        border: none;
+        background: none;
+    }
+
+    &__icon-button:active {
+        transform: scale(1.1);
+    }
+
+    &__like-button-wrapper {
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        bottom: 20px;
+        left: 30px;
+
+        img {
+            height: 30px;
+            width: 30px;
+        }
+    }
+}
